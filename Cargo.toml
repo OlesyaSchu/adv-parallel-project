@@ -1,0 +1,15 @@
+[package]
+name = "lemonade"
+version = "0.1.0"
+authors = ["olesia shchukina"]
+edition = "2018"
+
+[dependencies]
+lazysort="*"
+anyhow="*"
+regex="*"
+walkdir="*"
+lipsum="*"
+rayon="*"
+diam={git="https://github.com/wagnerf42/diam"}
+tracing="*"
